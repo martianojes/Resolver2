@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.jessymartiano.resolver.MainActivity">
+    tools:context="com.example.jessymartiano.resolver.controller.MainActivity">
 
     <SearchView
         android:layout_width="match_parent"
@@ -18,14 +18,5 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <ListView
-        android:layout_width="match_parent"
-        android:id="@+id/listview"
-        android:divider="#ff99fccc"
-        android:listSelector="@drawable/list_selecter"
-        android:dividerHeight="1dp"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/searchView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp" />
+
 </RelativeLayout>
