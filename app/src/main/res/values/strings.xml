@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Resolver</string>
+    <string name="typeActivity">Hotel Jerusalem</string>
+    <string name="country">Israel</string>
+    <string name="price">555$</string>
+
+
+</resources>
