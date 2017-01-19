@@ -16,7 +16,7 @@ import java.io.IOException;
  * Created by mailo on 15/12/2016.
  */
 
-public class MySQL_DBManager implements DB_manager {
+public class MySQL_DBManager implements DB_manager {//test
 
     private final String UserName="martiano";
     private final String WEB_URL = "http://"+UserName+".vlab.jct.ac.il/";
